@@ -59,3 +59,24 @@ iframe#tela{
 
 }
 
+section#redes-sociais{
+    text-align: right;      
+    /*
+    Colocando a minha caixa a direita
+    */
+}
+
+section#redes-sociais > a > img{
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.661);
+    box-sizing: border-box; /*As bordas fazem partem da caixa*/
+    
+}
+
+section#redes-sociais > a > img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.602);
+
+}
